@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Default styles for light mode */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Styles for dark mode */
+.App.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
